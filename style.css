@@ -1,0 +1,57 @@
+* {
+	margin: 10px;
+}
+
+/* Flex container one */
+.flexContainer_one {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	gap: 20px;
+}
+
+.flexContainer_one > .flexChild {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+
+/* Flex container two */
+
+.flexContainer_two {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 20px;
+}
+
+.flexItem {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.flexItem > .flexChild {
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
+
+/* Flex container three */
+
+.flexContainer_three {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.flexContainer_three > .flexChild {
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
